@@ -1,0 +1,74 @@
+---
+title: "CLASS OBSERVATION REPORT"
+author: "SCHOOL OF PROFESSIONAL STUDIES"
+output: html_document
+params:
+  class: NA
+  section: NA
+  obser: NA
+  obsee: NA 
+  date: NA 
+  start: NA
+  arrival: NA 
+  topic: NA 
+  mod: NA
+  Qs1: NA
+  Qs2: NA
+  Qs3: NA
+  Qs4: NA
+  Qs5: NA
+  Qs6: NA
+  Qs7: NA
+---
+
+
+```{r,echo=FALSE}
+# The `params` object is available in the document.
+cat(paste0("I, ", params$obser,", observed Professor ", params$obsee,"'s class on ", params$date,                          ", in the form of ",params$mod, " class. ", "I entered the session at ", params$arrival,
+       ", while the class started at ", params$start, ". The class is ", params$class," at section ",
+      params$section, " in MS in Management and Systems", " of New York University. The topic covered was ",
+       params$topic, ". The following is my in-depth", " evaluation of this class from seven aspects."))
+```
+
+### CLASS MANAGEMENT
+```{r, echo=FALSE}
+cat(params$Qs1)
+```
+
+### COMMUNICATION SKILLS
+```{r, echo=FALSE}
+cat(params$Qs2)
+```
+
+### CONTENT MASTERY, RELEVANCE & DELIVERY
+```{r, echo=FALSE}
+cat(params$Qs3)
+```
+
+### INSTRUCTIONAL MATERIALS
+```{r, echo=FALSE}
+cat(params$Qs4)
+```
+
+### STUDENT ENGAGEMENT
+```{r, echo=FALSE}
+cat(params$Qs5)
+```
+
+### USE OF LEARNING MANAGEMENT SYSTEM (LMS)
+```{r, echo=FALSE}
+cat(params$Qs6)
+```
+
+### USE OF THE MEETING TOOL
+```{r, echo=FALSE}
+cat(params$Qs7)
+```
+
+
+### ADDITIONAL COMMENTS
+
+The professor was very diligent in all communications with the reviewer in setting up the observation date and making the course website available for review.
+
+Signature of Observer:_________________________________________ Date: ___________________________  
+Signature of Instructor:_________________________________________ Date: ___________________________
